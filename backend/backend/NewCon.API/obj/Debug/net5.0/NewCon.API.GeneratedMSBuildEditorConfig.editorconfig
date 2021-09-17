@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = NewCon.API
-build_property.ProjectDir = C:\Users\maria\OneDrive\Documentos\GitHub\Teste-NewCon\backend\backend\NewCon.API\
+build_property.ProjectDir = C:\Users\maria\Documents\GitHub\Teste-NewCon\backend\backend\NewCon.API\

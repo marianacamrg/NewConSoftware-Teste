@@ -1,12 +1,19 @@
 import styled from 'styled-components';
+import { flex, FlexProps } from 'styled-system';
 
-export const Input = styled.input`
+
+type InputProps = FlexProps;
+
+export const Input = styled.input<InputProps>`
     background-color: transparent;
     padding: 10px;
-    border-bottom: 2px solid rgb(255,255, 255, 0.2);
-    color: #fff;
+    border-bottom: 2px solid rgb(141, 195, 139);
+    color: #94ff83;
 
     &::placeholder {
-        color: red;
+        color: #8dc38b;
     }
+
+${flex}
+
 `;

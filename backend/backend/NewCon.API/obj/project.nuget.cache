@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WgQj8ep0J+zimZ2gpOqTeq1Biq58DGGOZXDg9Wby89wYA/1IWSKR3s4cFmaMjScoaQ6Vav08jisIQWdytq3ywg==",
+  "dgSpecHash": "yYOFukGTGGZfXoG2IWodBCigv4w/0rG77XzX7OXhC/Zitk4bcEaltmPkZKbC/spquj9NMFcBPfPIGjspLaupAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\NewCon.API.csproj",
+  "projectFilePath": "C:\\Users\\maria\\Documents\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\NewCon.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maria\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

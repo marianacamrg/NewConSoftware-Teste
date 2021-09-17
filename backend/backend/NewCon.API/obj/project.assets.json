@@ -5985,11 +5985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\NewCon.API.csproj",
+      "projectUniqueName": "C:\\Users\\maria\\Documents\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\NewCon.API.csproj",
       "projectName": "NewCon.API",
-      "projectPath": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\NewCon.API.csproj",
+      "projectPath": "C:\\Users\\maria\\Documents\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\NewCon.API.csproj",
       "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\obj\\",
+      "outputPath": "C:\\Users\\maria\\Documents\\GitHub\\Teste-NewCon\\backend\\backend\\NewCon.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
