@@ -1,17 +1,15 @@
-import { Column } from 'components';
-//import { ITodo } from '../../interfaces';
-import { ListItem, ListItemProps } from './ListItem';
+import Card from '../Card/Card';
 
-type ListProps = {
-  items: ListItemProps[];
-};
 
-export const List: React.FC<ListProps> = ({ items }) => {
+const CardList = ({ attractions }: any) => {
+
   return (
-    <Column py="10px">
-      {items.map((item, index) => (
-        <ListItem key={index} {...item} />
+    <div>
+      {attractions.map((attraction: any) => (
+        <Card key={attraction.id} card={attraction} />
       ))}
-    </Column>
+    </div>
   );
-};
+}
+
+export default CardList;

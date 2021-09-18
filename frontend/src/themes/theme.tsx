@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import 'react-toastify/dist/ReactToastify.css';
 
 const fontSizes: any = [14, 18, 20, 96];
 fontSizes.body = fontSizes[0];

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend.csproj": {}
+    "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend.csproj": {
+    "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maria\\OneDrive\\Documentos\\GitHub\\Teste-NewCon\\backend\\obj\\",
+        "outputPath": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,36 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,6 +80,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
