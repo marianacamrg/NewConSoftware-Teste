@@ -5,7 +5,7 @@ import api  from "../../services/api";
 import CardList from "../../components/List/List";
 import Pagination from "../../components/Pagination";
 
-import { Container, Header, InputContainer, Resultado } from "./styled";
+import { Container, Header, InputContainer } from "./styled";
 
 
 
@@ -60,13 +60,15 @@ const Home: React.FC = () => {
     <Container>
       <Header>
       <div className="logo"><img src={process.env.PUBLIC_URL + '/logoinsta.png'} alt="logo" width="20%" height="20%" /> </div>
-        <Link to="/second">Cadastrar novo Ponto</Link>
+        <Link to="/second">Cadastrar</Link>
       </Header>
+      <h2> Noun Buscas </h2>
+      <h4> Procure o Ponto Turístico desejado:</h4>
       <InputContainer>
         <input
           type="search"
           className="promotion-search__input"
-          placeholder="Buscar"
+          placeholder="Buscar Ponto Turístico"
           value={search}
           onChange={(ev) => setSearch(ev.target.value)}
         />
@@ -84,10 +86,10 @@ const Home: React.FC = () => {
           />
         </>
       ) : (
-        <Resultado>
-        <Link to="/second">Nenhum resultado encontrado, clique para cadastrar</Link>
-        </Resultado>
-      )}
+        <Link className="Resultado" to="/second">
+          <h1>Resultado não encontrado, clique para cadastrar</h1>
+          </Link>
+        )}
     </Container>
   );
 };

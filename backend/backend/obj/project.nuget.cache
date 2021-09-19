@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F10AtpEFCWF+Qs4mQGfXWaywVnLB9gFCZHSUGWEqEeSGyf0pzDYgmORb3QzGQXP5lSz96Q+VdNhs/8pL8sk1uA==",
+  "dgSpecHash": "N+FUL14S7/qxZ0FVvPFtBO0dd0n2bvfikwgA/n5sfnwsJcuWvUo/+R0oQQY3xUMUBe6uEthKqr51HZ2HAqt8Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\maria\\Desktop\\NewConSoftware-Teste\\backend\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maria\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.9\\microsoft.aspnetcore.jsonpatch.5.0.9.nupkg.sha512",

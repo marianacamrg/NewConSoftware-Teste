@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\maria\\Desktop\\NewConSoftware-Teste\\backend\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\backend.csproj",
+      "projectPath": "C:\\Users\\maria\\Desktop\\NewConSoftware-Teste\\backend\\backend\\backend.csproj",
       "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria\\Desktop\\Teste-NewConSoftware\\Teste-NewConSoftware\\backend\\backend\\obj\\",
+      "outputPath": "C:\\Users\\maria\\Desktop\\NewConSoftware-Teste\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",

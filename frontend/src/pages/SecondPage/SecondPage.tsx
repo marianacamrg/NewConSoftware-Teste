@@ -7,8 +7,8 @@ import api from '../../services/api';
 import { Container, Header, Form, ButtonWrapper } from './styled'
 import Button from '../../components/Button';
 import Input from '../../components/Input';
-import Select from '../../components/Select';
-import { states } from "../../constants/statesOptions";
+import Select from 'components/SelectUF';
+import { states } from '../../constantsUF/statesOptions';
 
 
 
@@ -43,7 +43,6 @@ const SecondPage: React.FC = () => {
       }
     },
   });
-  //#endregion
 
   const history = useHistory();
   const voltar = () => {
@@ -55,13 +54,14 @@ const SecondPage: React.FC = () => {
     <Container>
 
       <Header>
-        <div className="logo"><img src={process.env.PUBLIC_URL + '/logoinsta.png'} alt="logo" width="20%" height="20%" /> </div>
+        <div className="logo"><img src={process.env.PUBLIC_URL + '/capa1024200.png'} alt="logo" width="100%" /> </div>
 
       </Header>
+      <h1> Insira as informações do local para cadastrar</h1>
 
       <Form onSubmit={formik.handleSubmit}>
 
-        <div> <h5>Nome: </h5>
+        <div> <h5>Nome do local: </h5>
           <Input
             name="nome"
             placeholder="Nome"
@@ -72,7 +72,7 @@ const SecondPage: React.FC = () => {
           {formik.errors.nome && formik.touched.nome && <span>{formik.errors.nome}</span>}
         </div>
 
-        <h3>Localidade: <br /> </h3>
+        <h3>Informações da localidade: <br /> </h3>
         <br />
         <div>
           <h5>UF: </h5>
@@ -102,7 +102,7 @@ const SecondPage: React.FC = () => {
           {formik.errors.cidade && formik.touched.cidade && <span>{formik.errors.cidade}</span>}
         </div>
 
-        <h5>Referencia: </h5>
+        <h5>Referência: </h5>
         <div>
           <Input
             name="referencia"
@@ -115,7 +115,7 @@ const SecondPage: React.FC = () => {
           {formik.errors.referencia && formik.touched.referencia && <span>{formik.errors.referencia}</span>}
         </div>
 
-        <h5>Descrição: </h5>
+        <h5>Descrição do local: </h5>
         <div>
           <Input
             name="descricao"

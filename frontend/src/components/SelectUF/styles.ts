@@ -11,7 +11,6 @@ export const StyledSelect = styled.select<IStyledISelect>`
   border: unset;
   border-radius: 8px;
   font-size: 16px;
-  /* background-color: #000; */
 
   
   padding: 0 25px;
@@ -30,6 +29,6 @@ export const StyledSelect = styled.select<IStyledISelect>`
   ${(props) =>
   props.className === 'displayErrors' &&
   css`
-    border: 2px solid #eb202b;
+    border: 2px solid #FF0000;
   `}
 `;

@@ -25,18 +25,18 @@ const Pagination:React.FC<IPagination> = ({total, currentPage, pages, setCurrent
     <Container>
       <div>Total registros: {total}</div>
       <div>
-        <span>Total registro por pagina </span>
+        <span>Total registro por página </span>
         <select onChange={limits}>
           <option value="5">5</option>
-          <option value="10">10</option>
-          <option value="15">15</option>
+          <option value="15">10</option>
+          <option value="30">30</option>
           <option value="100">100</option>
         </select>
       </div>
       <PaginationButton>
         {currentPage > 1 && (
           <PaginationItem onClick={() => setCurrentPage(currentPage - 1)}>
-            Pagina anterior
+            Página anterior
           </PaginationItem>
         )}
         {pages.map((page: any) => (
@@ -50,7 +50,7 @@ const Pagination:React.FC<IPagination> = ({total, currentPage, pages, setCurrent
         ))}
         {currentPage < pages.length && (
           <PaginationItem onClick={() => setCurrentPage(currentPage + 1)}>
-            Proxima pagina
+            Próxima Página
           </PaginationItem>
         )}
       </PaginationButton>

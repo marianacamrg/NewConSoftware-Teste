@@ -31,7 +31,8 @@ export const StyledInput = styled.input<IStyledInput>`
   ${(props) =>
   props.className === 'displayErrors' &&
   css`
-    border: 2px solid #eb202b;
+    border: 2px solid #FF0000;
     margin-bottom: 0;
   `}
 `;
+

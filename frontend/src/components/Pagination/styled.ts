@@ -10,10 +10,13 @@ export const Container = styled.div`
   max-width: 900px;
   justify-content: space-between;
   margin-top: 10px;
+  color: #ffffff;
+  
 `;
 
 export const PaginationButton = styled.div`
   display: flex;
+  color: #ffffff;
 `;
 
 export const PaginationItem = styled.div<ISelect>`
@@ -21,7 +24,8 @@ export const PaginationItem = styled.div<ISelect>`
   cursor: pointer;
   ${(props) =>
     props.isSelect && {
-      background: "#6d6d6d",
+      background: "#94ff83",
       padding: "0 5px",
+      color: "#fff",
     }}
 `;

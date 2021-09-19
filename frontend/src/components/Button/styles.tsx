@@ -6,16 +6,16 @@ interface IMyButtonProps {
 }
 
 export const StyledButton = styled.button<IMyButtonProps>`
-  background-color: #999999;
+  background-color: #94ff83;
 
   width: 20rem;
   height: 5.2rem;
   margin: 0.4rem 0rem;
 
   border-color: unset;
-  border-radius: 10rem;
   border: none;
   padding: 0rem 1.6rem;
+  border-radius: 2rem;
   cursor: pointer;
 
   &:hover {
@@ -24,7 +24,7 @@ export const StyledButton = styled.button<IMyButtonProps>`
   > span {
     font-size: 2.4rem;
     font-weight: bold;
-    color: #fff;
+    color: #000;
   }
 
   ${(props) =>
@@ -42,7 +42,6 @@ export const StyledButton = styled.button<IMyButtonProps>`
       background-color: transparent;
       color: #fff;
       border: 0.2rem solid #000;
-
       > span {
         color: #fff;
       }
